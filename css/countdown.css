@@ -1,0 +1,29 @@
+/* ======= Countdown ======= */
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 28px auto;
+}
+
+.timebox {
+  background: #fff;
+  border: 1px solid #ead8dd;
+  padding: 14px 10px;
+  min-width: 68px;
+}
+
+.timebox b {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--deep);
+}
+
+.timebox span {
+  font: 9px Arial, sans-serif;
+  letter-spacing: 1px;
+  color: var(--sage);
+  text-transform: uppercase;
+}
+

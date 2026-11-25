@@ -1,0 +1,28 @@
+/* ======= Variables globales y base ======= */
+:root {
+  --rose: #c77f9d;
+  --deep: #89566f;
+  --sage: #829b83;
+  --gold: #b99362;
+  --cream: #fffaf7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: #684d59;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+main {
+  overflow: hidden;
+}
+

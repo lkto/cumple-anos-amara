@@ -1,0 +1,29 @@
+@media (max-width: 420px) {
+  .photo-frame img {
+    height: 330px !important;
+  }
+
+  .carousel-slide img {
+    height: 220px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+    padding: 18px 8px;
+  }
+
+  .timebox {
+    min-width: 58px;
+  }
+
+  .photo-frame {
+    min-height: 310px;
+  }
+
+  .photo-placeholder {
+    min-height: 280px;
+  }
+}
